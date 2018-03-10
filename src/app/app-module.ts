@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing-module';
 import { AppComponent } from './app-component';
+import { ViewComponent as HomeComponent } from './views/home/view';
+import { ViewComponent as PageNotFoundComponent } from './views/not-found/view';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageNotFoundComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

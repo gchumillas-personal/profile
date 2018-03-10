@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-not-found',
   templateUrl: './view.html',
   styleUrls: ['./view.scss']
 })
