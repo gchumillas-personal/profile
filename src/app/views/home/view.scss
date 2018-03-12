@@ -3,7 +3,6 @@
 
 h1 {
   background: url('/assets/images/photo.jpg') left / contain no-repeat;
-  font-size: $font-size-h2;
   line-height: 1;
   padding: 3rem;
   padding-left: 16rem;
@@ -12,14 +11,6 @@ h1 {
     font-size: $font-size-h3;
     font-style: normal;
   }
-}
-
-h2 {
-  font-size: $font-size-h3;
-}
-
-h3 {
-  font-size: $font-size-h4;
 }
 
 td {
