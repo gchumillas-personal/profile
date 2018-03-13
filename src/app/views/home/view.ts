@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./view.scss']
 })
 export class ViewComponent {
+  mailto = 'gonzalo.chumillas@gmail.com';
 
+  constructor(private _sanitizer: DomSanitizer) { }
+
+  sanitize(url: string) {
+    return this._sanitizer.bypassSecurityTrustUrl(url);
+  }
 }
