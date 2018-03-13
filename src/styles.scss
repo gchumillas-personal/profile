@@ -4,6 +4,7 @@
 body {
   margin: 0;
   padding: 3rem 0;
+  // text-align: justify;
 }
 
 :scope {
@@ -17,5 +18,11 @@ body {
 
   h3 {
     font-size: $font-size-h4;
+  }
+
+  a {
+    .fa {
+      vertical-align: middle;
+    }
   }
 }
