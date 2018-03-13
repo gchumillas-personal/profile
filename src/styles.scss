@@ -1,12 +1,11 @@
 @import './assets/css/metrics';
 @import './assets/css/palette';
 
-body {
-  margin: 0;
-  padding: 3rem 0;
-}
-
 :scope {
+  body {
+    color: $primary-color;
+  }
+
   h1 {
     font-size: $font-size-h2;
   }
@@ -20,8 +19,16 @@ body {
   }
 
   a {
+    color: $primary-color-dark;
+    cursor: pointer;
+    font-weight: 400;
+
     .fa {
       vertical-align: middle;
+    }
+
+    &:hover {
+      text-decoration: underline;
     }
   }
 

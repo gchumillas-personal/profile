@@ -19,9 +19,10 @@ h1 {
 
   .right-column {
     flex-shrink: 0;
-    margin-left: 7rem;
+    margin-left: 10rem;
 
     ul {
+      font-weight: 400;
       list-style: upper-roman;
     }
   }
