@@ -13,6 +13,20 @@ h1 {
   }
 }
 
+.contents {
+  display: flex;
+  flex-direction: row-reverse;
+
+  .right-column {
+    flex-shrink: 0;
+    margin-left: 7rem;
+
+    ul {
+      list-style: upper-roman;
+    }
+  }
+}
+
 .description {
   display: flex;
   justify-content: space-between;
