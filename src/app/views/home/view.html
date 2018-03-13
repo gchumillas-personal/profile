@@ -9,9 +9,9 @@
     <div class="right-column">
       <h2>Índice</h2>
       <ul>
-        <li><a>Proyectos</a></li>
-        <li><a>Cómo funciona</a></li>
-        <li><a>Cuánto cuesta</a></li>
+        <li><a [ngx-scroll-to]="'#projects'">Proyectos</a></li>
+        <li><a [ngx-scroll-to]="'#how-works'">Cómo funciona</a></li>
+        <li><a [ngx-scroll-to]="'#how-much'">Cuánto cuesta</a></li>
         <li><a>Contactar</a></li>
       </ul>
     </div>
@@ -30,7 +30,7 @@
         </p>
       </div>
 
-      <div>
+      <div id="projects">
         <h2>Proyectos</h2>
         <h3>Gestor de fotografías online</h3>
         <div class="description">
@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <div>
+      <div id="how-works">
         <h2>Cómo funciona</h2>
         <p>
           El desarrollo de una aplicación consta de varias etapas, durante las cuales se mantendrá
@@ -101,7 +101,7 @@
         </p>
       </div>
 
-      <div>
+      <div id="how-much">
         <h2>Cuánto cuesta</h2>
         <p>
           <strong>Mi tarifa actual son 45&euro; la hora y cada etapa de desarrollo se factura
