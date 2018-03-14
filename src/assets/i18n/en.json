@@ -37,10 +37,21 @@
       }
     },
     "howMuch": {
-      "title": "How much does it cost?"
+      "title": "How much does it cost?",
+      "text": "<p><strong>My current rate is € 45 per hour and each stage of development is billed and paid for independently</strong>. As an illustrative example, suppose we have a blog and want to manage the entries. The application must be able to <code>list</code>, <code>delete</code>, <code>edit</code> or <code>insert</code> new entries. In total there would be four screens, including the identification screen.</p><p><strong>I would like to emphasize that the following invoice is only illustrative.</strong> Each application has its own difficulty and peculiarities. But it seemed appropriate to illustrate with an example how much a simple application could cost.</p>"
     },
     "contact": {
       "title": "Contact"
+    },
+    "details": {
+      "mainTemplate": "Main template",
+      "editTemplate": "Edit template",
+      "insertTemplate": "Insert template",
+      "loginTemplate": "Login template",
+      "mainScreen": "Main screen",
+      "editScreen": "Edit screen",
+      "insertScreen": "Insert screen",
+      "loginScreen": "Login screen"
     }
   }
 }

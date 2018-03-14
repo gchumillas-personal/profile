@@ -37,10 +37,21 @@
       }
     },
     "howMuch": {
-      "title": "Cuánto cuesta?"
+      "title": "Cuánto cuesta?",
+      "text": "<p><strong>Mi tarifa actual son 45&euro; la hora y cada etapa de desarrollo se factura y se paga de forma independiente.</strong> Como ejemplo ilustrativo, supongamos que tenemos un blog y queremos gestionar las entradas. La aplicación deberá ser capaz de <code>listar</code>, <code>borrar</code>, <code>editar</code> o <code>insertar</code> nuevas entradas. En total serían cuatro pantallas, incluyendo la pantalla de identificación.</p><p><strong>Me gustaría resaltar que la siguiente factura es sólo ilustrativa.</strong> Cada aplicación tiene su propia dificultad y peculiaridades. Pero me pareció oportuno ilustrar con un ejemplo cuánto podría costar una sencilla aplicación.</p>"
     },
     "contact": {
       "title": "Contactar"
+    },
+    "details": {
+      "mainTemplate": "Plantilla principal",
+      "editTemplate": "Plantilla de edición",
+      "insertTemplate": "Plantilla de inserción",
+      "loginTemplate": "Plantilla de identificación",
+      "mainScreen": "Pantalla principal",
+      "editScreen": "Pantalla de edición",
+      "insertScreen": "Pantalla de inserción",
+      "loginScreen": "Pantalla de identificación"
     }
   }
 }

@@ -61,80 +61,70 @@
       </div>
 
       <div class="block" id="how-much">
-        <h2>Cuánto cuesta</h2>
-        <p>
-          <strong>Mi tarifa actual son 45&euro; la hora y cada etapa de desarrollo se factura
-          y se paga de forma independiente.</strong> Como ejemplo ilustrativo, supongamos que tenemos
-          un blog y queremos gestionar las entradas. La aplicación deberá ser capaz de
-          <code>listar</code>, <code>borrar</code>, <code>editar</code> o <code>insertar</code>
-          nuevas entradas. En total serían cuatro pantallas, incluyendo la pantalla de identificación.
-        </p>
-        <p>
-          <strong>Me gustaría resaltar que la siguiente factura es sólo ilustrativa.</strong> Cada aplicación
-          tiene su propia dificultad y peculiaridades. Pero me pareció oportuno ilustrar con un
-          ejemplo cuánto podría costar una sencilla aplicación.
-        </p>
+        <h2>{{ 'home.howMuch.title' | translate }}</h2>
+        <div [innerHTML]="'home.howMuch.text' | translate"></div>
+
         <table class="detail">
           <tr>
-            <th>Recopilación de requisitos</th>
+            <th>{{ 'home.howWorks.requirements.title' | translate }}</th>
             <th>2 horas</th>
             <th>90 &euro;</th>
           </tr>
 
           <tr>
-            <th>Diseño de plantillas</th>
+            <th>{{ 'home.howWorks.design.title' | translate }}</th>
             <th>2.5 horas</th>
             <th>112.5 &euro;</th>
           </tr>
           <tr>
-            <td>Plantilla principal</td>
+            <td>{{ 'home.details.mainTemplate' | translate }}</td>
             <td>1 hora</td>
             <td>45 &euro;</td>
           </tr>
           <tr>
-            <td>Plantilla de edición</td>
+            <td>{{ 'home.details.editTemplate' | translate }}</td>
             <td>30 min</td>
             <td>22.5 &euro;</td>
           </tr>
           <tr>
-            <td>Plantilla de inserción</td>
+            <td>{{ 'home.details.insertTemplate' | translate }}</td>
             <td>30 min</td>
             <td>22.5 &euro;</td>
           </tr>
           <tr>
-            <td>Plantilla de identificación</td>
+            <td>{{ 'home.details.loginTemplate' | translate }}</td>
             <td>30 min</td>
             <td>22.5 &euro;</td>
           </tr>
 
           <tr>
-            <th>Desarrollo</th>
+            <th>{{ 'home.howWorks.development.title' | translate }}</th>
             <th>6 horas</th>
             <th>270 &euro;</th>
           </tr>
           <tr>
-            <td>Plantilla principal</td>
+            <td>{{ 'home.details.mainScreen' | translate }}</td>
             <td>3 horas</td>
             <td>135 &euro;</td>
           </tr>
           <tr>
-            <td>Plantilla de edición</td>
+            <td>{{ 'home.details.editScreen' | translate }}</td>
             <td>1 hora</td>
             <td>45 &euro;</td>
           </tr>
           <tr>
-            <td>Plantilla de inserción</td>
+            <td>{{ 'home.details.insertScreen' | translate }}</td>
             <td>1 hora</td>
             <td>45 &euro;</td>
           </tr>
           <tr>
-            <td>Plantilla de identificación</td>
+            <td>{{ 'home.details.loginScreen' | translate }}</td>
             <td>1 hora</td>
             <td>45 &euro;</td>
           </tr>
 
           <tr>
-            <th>Instalación</th>
+            <th>{{ 'home.howWorks.installation.title' | translate }}</th>
             <th>2 horas</th>
             <th>90 &euro;</th>
           </tr>
