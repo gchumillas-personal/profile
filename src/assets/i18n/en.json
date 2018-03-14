@@ -16,10 +16,26 @@
         "text": "<p>This application was born from the need to create a \"Universal Content Manager\". It is a highly configurable application capable of managing the content of any web, no matter how it has been developed. The application was developed mainly in <strong>jQuery</strong>, <strong>PHP</strong> and <strong>MySQL</strong>. You can find a demo in:<br><br> <a href=\"http://gchumillas.com/cms/\"><i class=\"fa fa-external-link\"></i> gchumillas.com/cms</a></p>"
       }
     },
-    "how-works": {
-      "title": "How does it work?"
+    "howWorks": {
+      "title": "How does it work?",
+      "requirements": {
+        "title": "Compilation of requirements",
+        "text": "During this first contact, the conversation with the client begins by video conference or email and the requirements that the application must meet are determined."
+      },
+      "design": {
+        "title": "Design of the templates",
+        "text": "Before starting in the development stage it is important to determine which screens will make up the application and their interaction between them. To this end, a series of templates subject to client approval will be designed."
+      },
+      "development": {
+        "title": "Development",
+        "text": "Once the client has agreed to the design, we will begin the development phase. It basically consists in \"bringing to reality\" the different templates that we have designed in the previous phase. Advances will be published every so often, so that the client can see the progress of their application."
+      },
+      "installation": {
+        "title": "Installation",
+        "text": "Once the development has finished and the application works correctly, it will be installed for use in production."
+      }
     },
-    "how-much": {
+    "howMuch": {
       "title": "How much does it cost?"
     },
     "contact": {
