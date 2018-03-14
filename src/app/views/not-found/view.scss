@@ -1,0 +1,17 @@
+@import '../../../assets/css/metrics';
+
+.not-found {
+  margin-top: 7rem;
+  text-align: center;
+
+  i {
+    display: block;
+    font-size: 16rem;
+    margin-bottom: $margin-bottom;
+  }
+
+  span {
+    font-size: $font-size-h1;
+    font-weight: 400;
+  }
+}
