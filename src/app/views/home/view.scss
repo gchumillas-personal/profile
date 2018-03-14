@@ -2,9 +2,7 @@
 @import '../../../assets/css/palette';
 
 .header {
-  background: url('/assets/images/photo.jpg') left / contain no-repeat;
-  margin: 5rem 0;
-  padding: 3rem 3rem 3rem 18rem;
+  margin: 3rem 0 5rem;
 
   h1 {
     line-height: 1;
@@ -28,20 +26,8 @@ h3 {
   }
 }
 
-.contents {
-  display: flex;
-  flex-direction: row-reverse;
-
-  .right-column {
-    flex-shrink: 0;
-    margin-left: 10rem;
-
-    ul {
-      font-weight: 400;
-      list-style: upper-roman;
-      white-space: nowrap;
-    }
-  }
+.right-column {
+  display: none;
 }
 
 .block {
@@ -49,38 +35,25 @@ h3 {
 }
 
 .description {
-  display: flex;
-  justify-content: space-between;
+  margin-bottom: 2rem;
 
   .thumbnail {
-    flex-shrink: 0;
-    margin: 0 1.5rem;
+    display: block;
 
     img {
       border: 1px solid $divider-color;
+      display: block;
       padding: .6rem;
-      width: 20rem;
+      width: 100%;
     }
   }
 }
 
 .detail {
-  td {
-    &:first-child {
-      padding-left: 1.5rem;
-    }
-  }
-
   td,
   th {
     &:last-child {
       text-align: center;
     }
-  }
-}
-
-.contact {
-  textarea {
-    height: 15rem;
   }
 }

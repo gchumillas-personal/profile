@@ -1,0 +1,30 @@
+@import '../../../assets/css/metrics';
+@import '../../../assets/css/palette';
+
+@media (min-width: $mobile-screen) {
+  .header {
+    background: url('/assets/images/photo.jpg') right / contain no-repeat;
+  }
+
+  .description {
+    display: flex;
+    justify-content: space-between;
+
+    .thumbnail {
+      flex-shrink: 0;
+      margin: 0 1.5rem;
+
+      img {
+        width: 20rem;
+      }
+    }
+  }
+
+  .detail {
+    td {
+      &:first-child {
+        padding-left: 1.5rem;
+      }
+    }
+  }
+}

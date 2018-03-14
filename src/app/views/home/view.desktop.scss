@@ -1,0 +1,27 @@
+@import '../../../assets/css/metrics';
+@import '../../../assets/css/palette';
+
+@media (min-width: $tablet-screen) {
+  .header {
+    background: url('/assets/images/photo.jpg') left / contain no-repeat;
+    margin: 5rem 0;
+    padding: 2rem 3rem 2rem 18rem;
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: row-reverse;
+
+    .right-column {
+      display: block;
+      flex-shrink: 0;
+      margin-left: 10rem;
+
+      ul {
+        font-weight: 400;
+        list-style: upper-roman;
+        white-space: nowrap;
+      }
+    }
+  }
+}
