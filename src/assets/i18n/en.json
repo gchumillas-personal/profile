@@ -3,6 +3,27 @@
     "subtitle": "Software Developer",
     "profile": {
         "title": "Profile",
-        "text": "<p>For more than ten years I have been dedicated to the development of software and management applications. Although I started programming in <strong>Delphi</strong> and <strong>J2EE</strong>, I am currently focusing my attention on web-oriented technologies, such as <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>jQuery</strong>, <strong>PHP</strong>, <strong>Linux</strong> and <strong>MySQL</strong>. Currently I develop applications in <strong>Angular</strong> and <strong>TypeScript</strong>, an ideal combination to create user interfaces. You can find out more about my work in my personal GitHub account:<br><br><a href=\"https://github.com/gchumillas\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> github.com/gchumillas</a></p><p>If you want to request more information you can send me an email to <a href=\"mailto:{{email}}\">{{email}}</a>. I will get in touch with you as soon as possible.</p>"}
+        "text": "<p>For more than ten years I have been dedicated to the development of software and management applications. Although I started programming in <strong>Delphi</strong> and <strong>J2EE</strong>, I am currently focusing my attention on web-oriented technologies, such as <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>jQuery</strong>, <strong>PHP</strong>, <strong>Linux</strong> and <strong>MySQL</strong>. Currently I develop applications in <strong>Angular</strong> and <strong>TypeScript</strong>, an ideal combination to create user interfaces. You can find out more about my work in my personal GitHub account:<br><br><a href=\"https://github.com/gchumillas\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> github.com/gchumillas</a></p><p>If you want to request more information you can send me an email to <a href=\"mailto:{{email}}\">{{email}}</a>. I will get in touch with you as soon as possible.</p>"
+    },
+    "projects": {
+      "title": "Projects",
+      "photoManager": {
+        "title": "Online photo manager",
+        "text": "<p>I'm excited about photography and when I did not find suitable software, so I decided to start the development of an online photo manager. It is an application adapted for mobile and developed in <strong>Angular</strong>, <strong>TypeScript</strong>, <strong>PHP</strong> and <strong>MySQL</strong>. The application uses <strong>Dropbox</strong> services as an image store. You can find more information on GitHub:<br><br> <a href=\"https://github.com/gchumillas/petitphotobox\"><i class=\"fa fa-external-link\"></i> github.com/gchumillas/petitphotobox</a></p>"
+      },
+      "cms": {
+        "title": "Content Management System",
+        "text": "<p>This application was born from the need to create a \"Universal Content Manager\". It is a highly configurable application capable of managing the content of any web, no matter how it has been developed. The application was developed mainly in <strong>jQuery</strong>, <strong>PHP</strong> and <strong>MySQL</strong>. You can find a demo in:<br><br> <a href=\"http://gchumillas.com/cms/\"><i class=\"fa fa-external-link\"></i> gchumillas.com/cms</a></p>"
+      }
+    },
+    "how-works": {
+      "title": "How does it work?"
+    },
+    "how-much": {
+      "title": "How much does it cost?"
+    },
+    "contact": {
+      "title": "Contact"
+    }
   }
 }

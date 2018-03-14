@@ -10,56 +10,33 @@
     <div class="right-column">
       <h2>Índice</h2>
       <ul>
-        <li><a [ngx-scroll-to]="'#projects'">Proyectos</a></li>
-        <li><a [ngx-scroll-to]="'#how-works'">Cómo funciona</a></li>
-        <li><a [ngx-scroll-to]="'#how-much'">Cuánto cuesta</a></li>
-        <li><a [href]="sanitize('mailto:' + mailto)">Contactar</a></li>
+        <li><a [ngx-scroll-to]="'#projects'">{{ 'home.projects.title' | translate }}</a></li>
+        <li><a [ngx-scroll-to]="'#how-works'">{{ 'home.how-works.title' | translate }}</a></li>
+        <li><a [ngx-scroll-to]="'#how-much'">{{ 'home.how-much.title' | translate }}</a></li>
+        <li><a [href]="sanitize('mailto:' + mailto)">{{ 'home.contact.title' | translate }}</a></li>
       </ul>
     </div>
 
     <div class="left-column">
       <div class="block">
-        <h2>{{'home.profile.title' | translate}}</h2>
+        <h2>{{ 'home.profile.title' | translate }}</h2>
         <div [innerHTML]="'home.profile.text' | translate:{email: mailto}"></div>
       </div>
 
       <div class="block" id="projects">
-        <h2>Proyectos</h2>
-        <h3>Gestor de fotografías online</h3>
+        <h2>{{ 'home.projects.title' | translate }}</h2>
+
+        <h3>{{ 'home.projects.photoManager.title' | translate}}</h3>
         <div class="description">
-          <div class="text">
-            <p>
-              Me entusiasma la fotografía y al no encontrar un software adecuado decidí iniciar el
-              desarrollo de un gestor de fotografías online. Se trata de una aplicación adaptada
-              para móviles y desarrollada en <strong>Angular</strong>, <strong>TypeScript</strong>,
-              <strong>PHP</strong> y <strong>MySQL</strong>. La aplicación
-              utiliza los servicios de <strong>Dropbox</strong> como almacén de imágenes.
-              Puede encontrar más información en GitHub:<br><br>
-              <a href="https://github.com/gchumillas/petitphotobox">
-                <i class="fa fa-external-link"></i>
-                github.com/gchumillas/petitphotobox
-              </a>
-            </p>
-          </div>
+          <div class="text" [innerHTML]="'home.projects.photoManager.text' | translate"></div>
           <a href="/assets/images/photobox.png" target="_blank" class="thumbnail">
             <img src="/assets/images/photobox.png">
           </a>
         </div>
 
-        <h3>Gestor de contenidos</h3>
+        <h3>{{ 'home.projects.cms.title' | translate}}</h3>
         <div class="description">
-          <div class="text">
-            <p>
-              Esta aplicación nació de la necesidad de crear un "Gestor de Contenidos Universal".
-              Se trata de una aplicación altamente configurable capaz de gestionar el contenido
-              de cualquier web, sin importar cómo haya sido desarrollada. La aplicación fue desarrollada
-              principalmente en <strong>jQuery</strong>, <strong>PHP</strong> y <strong>MySQL</strong>.
-              Puede encontrar una demo en:<br><br>
-              <a href="http://gchumillas.com/cms/">
-                <i class="fa fa-external-link"></i> gchumillas.com/cms
-              </a>
-            </p>
-          </div>
+          <div class="text" [innerHTML]="'home.projects.cms.text' | translate"></div>
           <a href="/assets/images/cms.png" target="_blank" class="thumbnail">
             <img src="/assets/images/cms.png">
           </a>
