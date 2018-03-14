@@ -4,6 +4,7 @@
 @media (min-width: $mobile-screen) {
   .header {
     background: url('/assets/images/photo.jpg') right / contain no-repeat;
+    margin-right: 1.5rem;
   }
 
   .description {

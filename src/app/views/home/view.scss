@@ -1,8 +1,12 @@
 @import '../../../assets/css/metrics';
 @import '../../../assets/css/palette';
 
+.container {
+  margin-top: 2rem;
+}
+
 .header {
-  margin: 3rem 0 5rem;
+  margin-bottom: 2.5rem;
 
   h1 {
     line-height: 1;
