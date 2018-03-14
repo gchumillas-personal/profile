@@ -1,0 +1,33 @@
+@import '../../../assets/css/metrics';
+@import '../../../assets/css/palette';
+
+@media (max-width: $large-screen) {
+  .header {
+    background: none;
+    margin-top: 3rem;
+    padding: 0;
+  }
+
+  .contents {
+    display: block;
+  }
+
+  .right-column {
+    display: none;
+  }
+
+  .description {
+    display: block;
+    margin-bottom: 2.5rem;
+
+    .thumbnail {
+      display: block;
+      margin: 0;
+
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}

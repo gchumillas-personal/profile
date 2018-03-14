@@ -4,7 +4,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 @Component({
   selector: 'app-home',
   templateUrl: './view.html',
-  styleUrls: ['./view.scss']
+  styleUrls: ['./view.scss', 'view.mobile.scss']
 })
 export class ViewComponent {
   mailto = 'gonzalo.chumillas@gmail.com';
