@@ -19,23 +19,8 @@
 
     <div class="left-column">
       <div class="block">
-        <h2>Perfil</h2>
-        <p>
-          Durante más de quince años me he dedicado al desarrollo de software y aplicaciones de gestión.
-          Aunque empecé programando en <strong>Delphi</strong> y <strong>J2EE</strong>, actualmente centro mi atención en tecnologías
-          orientadas a la web, como <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>jQuery</strong>, <strong>PHP</strong>, <strong>Linux</strong> y <strong>MySQL</strong>. En la actualidad desarrollo
-          aplicaciones en <strong>Angular</strong> y <strong>TypeScript</strong>, una combinación ideal para la creación de interfaces de usuario.
-          Pueden conocer más detalles sobre mi trabajo en mi cuenta personal de GitHub:<br><br>
-          <a href="https://github.com/gchumillas" target="_blank">
-            <i class="fa fa-external-link"></i>
-            github.com/gchumillas
-          </a>
-        </p>
-        <p>
-          Si desea solicitar más información puede enviarme un correo electrónico a
-          <a [href]="sanitize('mailto:' + mailto)">{{mailto}}</a>. Me pondré en contacto con usted
-          lo antes posible.
-        </p>
+        <h2>{{'home.profile.title' | translate}}</h2>
+        <div [innerHTML]="'home.profile.text' | translate:{email: mailto}"></div>
       </div>
 
       <div class="block" id="projects">

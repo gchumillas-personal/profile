@@ -1,3 +1,8 @@
 {
-  "subtitle": "Software Developer"
+  "home": {
+    "subtitle": "Software Developer",
+    "profile": {
+        "title": "Profile",
+        "text": "<p>For more than ten years I have been dedicated to the development of software and management applications. Although I started programming in <strong>Delphi</strong> and <strong>J2EE</strong>, I am currently focusing my attention on web-oriented technologies, such as <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>jQuery</strong>, <strong>PHP</strong>, <strong>Linux</strong> and <strong>MySQL</strong>. Currently I develop applications in <strong>Angular</strong> and <strong>TypeScript</strong>, an ideal combination to create user interfaces. You can find out more about my work in my personal GitHub account:<br><br><a href=\"https://github.com/gchumillas\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> github.com/gchumillas</a></p><p>If you want to request more information you can send me an email to <a href=\"mailto:{{email}}\">{{email}}</a>. I will get in touch with you as soon as possible.</p>"}
+  }
 }
