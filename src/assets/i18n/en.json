@@ -18,6 +18,7 @@
     },
     "howWorks": {
       "title": "How does it work?",
+      "text": "The development of an application consists of several stages, during which the contact with the client will be maintained to ensure that it follows the appropriate direction.",
       "requirements": {
         "title": "Compilation of requirements",
         "text": "During this first contact, the conversation with the client begins by video conference or email and the requirements that the application must meet are determined."

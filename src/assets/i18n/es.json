@@ -18,6 +18,7 @@
     },
     "howWorks": {
       "title": "Cómo funciona?",
+      "text": "El desarrollo de una aplicación consta de varias etapas, durante las cuales se mantendrá el contacto con el cliente para asegurarnos que sigue la dirección adecuada.",
       "requirements": {
         "title": "Recopilación de requisitos",
         "text": "Durante esta primera toma de contacto se inicia la conversación con el cliente mediante video conferencia o correo electrónico y se determinan los requisitos que debe cumplir la aplicación."
