@@ -1,4 +1,9 @@
 {
+  "__COMMON__": "Traducciones comunes",
+  "hour": "hora",
+  "hours": "horas",
+
+  "__VIEWS__": "Vistas",
   "home": {
     "subtitle": "Software Developer",
     "profile": {
