@@ -14,36 +14,36 @@
       "title": "Projects",
       "photoManager": {
         "title": "Online photo manager",
-        "text": "<p>I'm excited about photography and when I did not find suitable software, so I decided to start the development of an online photo manager. It is an application adapted for mobile and developed in <strong>Angular</strong>, <strong>TypeScript</strong>, <strong>PHP</strong> and <strong>MySQL</strong>. The application uses <strong>Dropbox</strong> services as an image store. You can find more information on GitHub:<br><br> <a href=\"https://github.com/gchumillas/petitphotobox\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> github.com/gchumillas/petitphotobox</a></p>"
+        "text": "<p>I'm a photography enthusiast so I decided to create a personal project to organize my pictures. It is a \"first mobile\" application mainly developed in <strong>Angular</strong>, <strong>TypeScript</strong>, <strong>PHP</strong> and <strong>MySQL</strong>. It uses <strong>Dropbox</strong> as image storage system. You can find more about this project in GitHub:<br><br> <a href=\"https://github.com/gchumillas/petitphotobox\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> github.com/gchumillas/petitphotobox</a></p>"
       },
       "cms": {
         "title": "Content Management System",
-        "text": "<p>This application was born from the need to create a \"Universal Content Manager\". It is a highly configurable application capable of managing the content of any web, no matter how it has been developed. The application was developed mainly in <strong>jQuery</strong>, <strong>PHP</strong> and <strong>MySQL</strong>. You can find a demo in:<br><br> <a href=\"http://gchumillas.com/cms/\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> gchumillas.com/cms</a></p>"
+        "text": "<p>This application was born from the need of creating an \"Universal Content Manager System\". It is a highly configurable application capable of managing the content of any website, no matter how it was developed. The application was mainly developed in <strong>jQuery</strong>, <strong>PHP</strong> and <strong>MySQL</strong>. Here's a demo:<br><br> <a href=\"http://gchumillas.com/cms/\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> gchumillas.com/cms</a></p>"
       }
     },
     "howWorks": {
       "title": "How does it work?",
-      "text": "The development of an application consists of several stages, during which the contact with the client will be maintained to ensure that it follows the appropriate direction.",
+      "text": "The software development process is divided into several stages, and maintaining a constant contact with the client is crucial to ensure an adequate direction.",
       "requirements": {
         "title": "Compilation of requirements",
-        "text": "During this first contact, the conversation with the client begins by video conference or email and the requirements that the application must meet are determined."
+        "text": "During this first stage the communication begins. It pretends to establish the purpose as well as the requirements of the application. We can use Skype, email or other software to start conversations."
       },
       "design": {
-        "title": "Design of the templates",
-        "text": "Before starting in the development stage it is important to determine which screens will make up the application and their interaction between them. To this end, a series of templates subject to client approval will be designed."
+        "title": "Templates design",
+        "text": "Before starting the development stage it's very important to determine which screens will conform the application and their interaction between them. To achieve this a set of templates will be designed, subject to the client approval."
       },
       "development": {
         "title": "Development",
-        "text": "Once the client has agreed to the design, we will begin the development phase. It basically consists in \"bringing to reality\" the different templates that we have designed in the previous phase. Advances will be published every so often, so that the client can see the progress of their application."
+        "text": "Once the client has agreed the design we will start the development stage. It basically consists in \"bringing to reality\" the templates designed in the previous stage. Advances will be published regularly, so that the client can see the progress of the application."
       },
       "installation": {
-        "title": "Installation",
-        "text": "Once the development has finished and the application works correctly, it will be installed for use in production."
+        "title": "Delivering and installation",
+        "text": "Finally the application is delivered and installed on the client's server. I can provide a server in case the client does not have one."
       }
     },
     "howMuch": {
       "title": "How much does it cost?",
-      "text": "<p><strong>My current rate is € 45 per hour and each stage of development is billed and paid for independently</strong>. As an illustrative example, suppose we have a blog and want to manage the entries. The application must be able to <code>list</code>, <code>delete</code>, <code>edit</code> or <code>insert</code> new entries. In total there would be four screens, including the identification screen.</p><p><strong>I would like to emphasize that the following invoice is only illustrative.</strong> Each application has its own difficulty and peculiarities. But it seemed appropriate to illustrate with an example how much a simple application could cost.</p>"
+      "text": "<p><strong>My current rate is 45€ per hour and each development stage is billed and paid independently</strong>. As an illustrative example let's say that we have a blog and we want to manage their entries. The application must be able to <code>list</code>, <code>delete</code>, <code>edit</code> or <code>insert</code> entries. In total there are four screens, including the log-in screen.</p><p><strong>I would like to note that the following cost breakdown is illustrative only.</strong> Each application has its own peculiarities. But it seemed to me appropriate to illustrate with an example how much a simple application would cost.</p>"
     },
     "contact": {
       "title": "Contact"
