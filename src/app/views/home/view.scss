@@ -16,6 +16,31 @@
   .subtitle {
     font-size: $font-size-h4;
   }
+
+  .langs {
+    display: inline-flex;
+    vertical-align: middle;
+
+    a {
+      margin-left: 1rem;
+
+      &:first-child {
+        margin-left: .6rem;
+      }
+
+      img {
+        display: inline-block;
+        height: 1.7rem;
+        opacity: .6;
+      }
+
+      &.selected {
+        img {
+          opacity: 1;
+        }
+      }
+    }
+  }
 }
 
 h3 {

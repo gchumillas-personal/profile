@@ -1,7 +1,17 @@
 <div class="container">
   <div class="header">
     <h1>Gonzalo Chumillas</h1>
-    <p class="subtitle">Software Developer</p>
+    <p class="subtitle">
+      Software Developer
+      <span class="langs">
+        <a (click)="useLang('es')" [ngClass]="{selected: lang == 'es'}" [title]="'spanish' | translate">
+          <img src="/assets/images/es.png">
+        </a>
+        <a (click)="useLang('en')" [ngClass]="{selected: lang == 'en'}" [title]="'english' | translate">
+          <img src="/assets/images/en.png">
+        </a>
+      </span>
+    </p>
     <p class="info"><i class="fa fa-map-marker"></i> Cádiz, Spain</p>
   </div>
 

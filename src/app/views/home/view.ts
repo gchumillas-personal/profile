@@ -10,20 +10,31 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class ViewComponent implements OnInit {
   mailto = 'gonzalo.chumillas@gmail.com';
+  lang = 'es';
 
   constructor(
     private _route: ActivatedRoute,
     private _translate: TranslateService,
     private _sanitizer: DomSanitizer) { }
 
+
+  get currentLang() {
+    return this._translate.currentLang;
+  }
+
   ngOnInit() {
     this._route.params.subscribe((params) => {
       const lang = params.lang;
 
       if (lang === 'en') {
-        this._translate.use(lang);
+        this.useLang(lang);
       }
     });
+  }
+
+  useLang(lang: string) {
+    this._translate.use(lang);
+    this.lang = lang;
   }
 
   sanitize(url: string) {
