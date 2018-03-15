@@ -25,7 +25,7 @@
       },
       "phpQuery": {
         "title": "PHP DOM Node",
-        "text": "<p>Una librería inspirada en la famosa librería jQuery para analizar y manipular documentos DOM de una forma intuitiva. Puede encontrar más información en GitHub:<br><br><a href=\"https://github.com/soloproyectos-php/dom-node\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> github.com/soloproyectos-php/dom-node</a></p>"
+        "text": "<p>Una <strong>API en PHP</strong> inspirada en la famosa librería <strong>jQuery</strong> para analizar y manipular documentos <strong>DOM</strong> de una forma intuitiva. Puede encontrar más información en GitHub:<br><br><a href=\"https://github.com/soloproyectos-php/dom-node\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> github.com/soloproyectos-php/dom-node</a></p>"
       }
     },
     "howWorks": {
