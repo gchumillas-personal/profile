@@ -22,6 +22,10 @@
       "cms": {
         "title": "Content Management System",
         "text": "<p>This application was born from the need of creating an \"Universal Content Manager System\". It is a highly configurable application capable of managing the content of any website, no matter how it was developed. The application was mainly developed in <strong>jQuery</strong>, <strong>PHP</strong> and <strong>MySQL</strong>. Here's a demo:<br><br> <a href=\"http://gchumillas.com/cms/\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> gchumillas.com/cms</a></p>"
+      },
+      "phpQuery": {
+        "title": "PHP DOM Node",
+        "text": "<p>This is a library inspired in the popular jQuery library to parse and manipulate DOM documents in an easy way. You can find more about this project in GitHub:<br><br><a href=\"https://github.com/soloproyectos-php/dom-node\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> github.com/soloproyectos-php/dom-node</a></p>"
       }
     },
     "howWorks": {
