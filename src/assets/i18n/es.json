@@ -24,8 +24,8 @@
         "text": "<p>Esta aplicación nació de la necesidad de crear un \"Gestor de Contenidos Universal\". Se trata de una aplicación altamente configurable capaz de gestionar el contenido de cualquier web, sin importar cómo haya sido desarrollada. La aplicación fue desarrollada principalmente en <strong>jQuery</strong>, <strong>PHP</strong> y <strong>MySQL</strong>. Puede encontrar una demo en:<br><br> <a href=\"http://gchumillas.com/cms/\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> gchumillas.com/cms</a></p>"
       },
       "phpQuery": {
-        "title": "PHP DOM Node",
-        "text": "<p>Una <strong>API en PHP</strong> inspirada en la famosa librería <strong>jQuery</strong> para analizar y manipular documentos <strong>DOM</strong> de una forma intuitiva. Puede encontrar más información en GitHub:<br><br><a href=\"https://github.com/soloproyectos-php/dom-node\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> github.com/soloproyectos-php/dom-node</a></p>"
+        "title": "PHP Query",
+        "text": "<p>Ésta es una de mis librerías favoritas. Se trata de una <strong>API en PHP</strong> inspirada en la famosa librería <strong>jQuery</strong> para analizar y manipular documentos <strong>DOM</strong> de una forma intuitiva. Puede encontrar más información en GitHub:<br><br><a href=\"https://github.com/soloproyectos-php/dom-node\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> github.com/soloproyectos-php/dom-node</a></p>"
       }
     },
     "howWorks": {
