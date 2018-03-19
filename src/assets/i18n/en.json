@@ -21,7 +21,7 @@
       },
       "cms": {
         "title": "Content Management System",
-        "text": "<p>This application was born from the need of creating an \"Universal Content Manager System\". It is a highly configurable application capable of managing the content of any website, no matter how it was developed. The application was mainly developed in <strong>jQuery</strong>, <strong>PHP</strong> and <strong>MySQL</strong>. Here's a demo:<br><br> <a href=\"http://gchumillas.com/cms/\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> gchumillas.com/cms</a></p>"
+        "text": "<p>This application was born from the need of creating an \"Universal Content Manager System\". It is a highly configurable application capable of managing the content of any website, no matter how it was developed. The application was mainly developed in <strong>jQuery</strong>, <strong>PHP</strong> and <strong>MySQL</strong>. Here's a demo:<br><br> <a href=\"http://cms.gchumillas.com/cms/\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> cms.gchumillas.com/cms</a></p>"
       },
       "phpQuery": {
         "title": "PHP Query",

@@ -21,7 +21,7 @@
       },
       "cms": {
         "title": "Gestor de contenidos",
-        "text": "<p>Esta aplicación nació de la necesidad de crear un \"Gestor de Contenidos Universal\". Se trata de una aplicación altamente configurable capaz de gestionar el contenido de cualquier web, sin importar cómo haya sido desarrollada. La aplicación fue desarrollada principalmente en <strong>jQuery</strong>, <strong>PHP</strong> y <strong>MySQL</strong>. Puede encontrar una demo en:<br><br> <a href=\"http://gchumillas.com/cms/\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> gchumillas.com/cms</a></p>"
+        "text": "<p>Esta aplicación nació de la necesidad de crear un \"Gestor de Contenidos Universal\". Se trata de una aplicación altamente configurable capaz de gestionar el contenido de cualquier web, sin importar cómo haya sido desarrollada. La aplicación fue desarrollada principalmente en <strong>jQuery</strong>, <strong>PHP</strong> y <strong>MySQL</strong>. Puede encontrar una demo en:<br><br> <a href=\"http://cms.gchumillas.com/cms/\" target=\"_blank\"><i class=\"fa fa-external-link\"></i> cms.gchumillas.com/cms</a></p>"
       },
       "phpQuery": {
         "title": "PHP Query",
